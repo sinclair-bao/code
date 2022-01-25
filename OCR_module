@@ -1,0 +1,10 @@
+# encoding:utf-8
+import pandas as pd
+import numpy as np
+import os
+import requests
+import base64
+
+'''
+通用文字识别（高精度版）
+'''

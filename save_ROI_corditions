@@ -1,0 +1,9 @@
+import os
+from posix import listdir
+import pydicom
+import pandas as pd
+import numpy as np
+
+root_path = '/Users/sinclair/100-Learning/160-project/Works/Baoshanlei/DTPA/dtpa/renamed_dtpa'
+file_list = listdir(root_path)
+print(file_list)
